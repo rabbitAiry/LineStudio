@@ -1,0 +1,1101 @@
+{
+    "name": "佛山",
+    "lines": {
+        "F2": {
+            "id": "F2",
+            "name": "2号线",
+            "name2": "",
+            "routeList": [
+                {
+                    "stationList": [
+                        "27",
+                        "26",
+                        "25",
+                        "24",
+                        "23",
+                        "22",
+                        "21",
+                        "20",
+                        "19",
+                        "18",
+                        "17",
+                        "16",
+                        "15",
+                        "14",
+                        "13",
+                        "12",
+                        "11"
+                    ],
+                    "expressOf": -1,
+                    "shuttleOf": -1,
+                    "branchOf": -1,
+                    "isCircular": false
+                },
+                {
+                    "stationList": [
+                        "11",
+                        "12",
+                        "13",
+                        "14",
+                        "15",
+                        "16",
+                        "17",
+                        "18",
+                        "19",
+                        "20",
+                        "21",
+                        "22",
+                        "23",
+                        "24",
+                        "25",
+                        "26",
+                        "27"
+                    ],
+                    "expressOf": -1,
+                    "shuttleOf": -1,
+                    "branchOf": -1,
+                    "isCircular": false
+                }
+            ],
+            "stationMap": {
+                "广州南站": {
+                    "id": "27",
+                    "name": "广州南站",
+                    "name2": "Guangzhou South Railway Station",
+                    "location": {
+                        "latitude": 113.265896,
+                        "longitude": 22.988184
+                    },
+                    "enable": true,
+                    "interchanges": ["2", "7", "22"],
+                    "exitInterchanges": [
+                        {
+                            "first": "番禺",
+                            "second": "广东城际"
+                        }
+                    ]
+                },
+                "林岳东": {
+                    "id": "26",
+                    "name": "林岳东",
+                    "name2": "Linyue Dong",
+                    "location": {
+                        "latitude": 113.249693,
+                        "longitude": 22.993909
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": [
+                        {
+                            "first": "林岳东",
+                            "second": "TNH1"
+                        }
+                    ]
+                },
+                "林岳西": {
+                    "id": "25",
+                    "name": "林岳西",
+                    "name2": "Linyue Xi",
+                    "location": {
+                        "latitude": 113.237161,
+                        "longitude": 22.993744
+                    },
+                    "enable": true,
+                    "interchanges": ["TNH1"],
+                    "exitInterchanges": []
+                },
+                "石洲": {
+                    "id": "24",
+                    "name": "石洲",
+                    "name2": "Shizhou",
+                    "location": {
+                        "latitude": 113.216131,
+                        "longitude": 22.990593
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "仙涌": {
+                    "id": "23",
+                    "name": "仙涌",
+                    "name2": "Xianchong",
+                    "location": {
+                        "latitude": 113.198254,
+                        "longitude": 22.983006
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "花卉世界": {
+                    "id": "22",
+                    "name": "花卉世界",
+                    "name2": "Flower World",
+                    "location": {
+                        "latitude": 113.16135,
+                        "longitude": 22.973388
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "登洲": {
+                    "id": "21",
+                    "name": "登洲",
+                    "name2": "Dengzhou",
+                    "location": {
+                        "latitude": 113.148778,
+                        "longitude": 22.979292
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "湾华": {
+                    "id": "20",
+                    "name": "湾华",
+                    "name2": "Wanhua",
+                    "location": {
+                        "latitude": 113.131651,
+                        "longitude": 22.99187
+                    },
+                    "enable": true,
+                    "interchanges": ["F3"],
+                    "exitInterchanges": []
+                },
+                "石梁": {
+                    "id": "19",
+                    "name": "石梁",
+                    "name2": "Shiliang",
+                    "location": {
+                        "latitude": 113.118747,
+                        "longitude": 22.992691
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "魁奇路": {
+                    "id": "18",
+                    "name": "魁奇路",
+                    "name2": "Kuiqi Lu",
+                    "location": {
+                        "latitude": 113.108615,
+                        "longitude": 22.993786
+                    },
+                    "enable": true,
+                    "interchanges": ["GF"],
+                    "exitInterchanges": []
+                },
+                "沙岗": {
+                    "id": "17",
+                    "name": "沙岗",
+                    "name2": "Shagang",
+                    "location": {
+                        "latitude": 113.094247,
+                        "longitude": 22.996518
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "石湾": {
+                    "id": "16",
+                    "name": "石湾",
+                    "name2": "Shiwan",
+                    "location": {
+                        "latitude": 113.083286,
+                        "longitude": 23.005298
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "张槎": {
+                    "id": "15",
+                    "name": "张槎",
+                    "name2": "Zhangcha",
+                    "location": {
+                        "latitude": 113.067748,
+                        "longitude": 23.011037
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": [
+                        {
+                            "first": "张槎",
+                            "second": "广东城际"
+                        }
+                    ]
+                },
+                "智慧新城": {
+                    "id": "14",
+                    "name": "智慧新城",
+                    "name2": "Zhihui Xincheng",
+                    "location": {
+                        "latitude": 113.055418,
+                        "longitude": 23.011163
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "绿岛湖": {
+                    "id": "13",
+                    "name": "绿岛湖",
+                    "name2": "Lvdao Lake",
+                    "location": {
+                        "latitude": 113.034239,
+                        "longitude": 23.001982
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "湖涌": {
+                    "id": "12",
+                    "name": "湖涌",
+                    "name2": "Huchong",
+                    "location": {
+                        "latitude": 113.01136,
+                        "longitude": 23.003165
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "南庄": {
+                    "id": "11",
+                    "name": "南庄",
+                    "name2": "Nanzhuang",
+                    "location": {
+                        "latitude": 113.00655,
+                        "longitude": 22.982952
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                }
+            },
+            "colorValue": "0xFFFC0601"
+        },
+        "F3": {
+            "id": "F3",
+            "name": "3号线",
+            "name2": "",
+            "routeList": [
+                {
+                    "stationList": [
+                        "38",
+                        "37",
+                        "36",
+                        "35",
+                        "34",
+                        "33",
+                        "32",
+                        "31",
+                        "30",
+                        "29",
+                        "28",
+                        "27",
+                        "26",
+                        "25",
+                        "24",
+                        "23",
+                        "22",
+                        "21",
+                        "20",
+                        "19",
+                        "18",
+                        "17",
+                        "16",
+                        "15",
+                        "14",
+                        "13",
+                        "12",
+                        "11",
+                        "10",
+                        "09",
+                        "08",
+                        "07",
+                        "06",
+                        "05",
+                        "04",
+                        "03",
+                        "02"
+                    ],
+                    "expressOf": -1,
+                    "shuttleOf": -1,
+                    "branchOf": -1,
+                    "isCircular": false
+                },
+                {
+                    "stationList": [
+                        "02",
+                        "03",
+                        "04",
+                        "05",
+                        "06",
+                        "07",
+                        "08",
+                        "09",
+                        "10",
+                        "11",
+                        "12",
+                        "13",
+                        "14",
+                        "15",
+                        "16",
+                        "17",
+                        "18",
+                        "19",
+                        "20",
+                        "21",
+                        "22",
+                        "23",
+                        "24",
+                        "25",
+                        "26",
+                        "27",
+                        "28",
+                        "29",
+                        "30",
+                        "31",
+                        "32",
+                        "33",
+                        "34",
+                        "35",
+                        "36",
+                        "37",
+                        "38"
+                    ],
+                    "expressOf": -1,
+                    "shuttleOf": -1,
+                    "branchOf": -1,
+                    "isCircular": false
+                }
+            ],
+            "stationMap": {
+                "佛山大学": {
+                    "id": "38",
+                    "name": "佛山大学",
+                    "name2": "Foshan University",
+                    "location": {
+                        "latitude": 113.055173,
+                        "longitude": 23.14571
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "南海大学城": {
+                    "id": "37",
+                    "name": "南海大学城",
+                    "name2": "Nanhai University Town",
+                    "location": {
+                        "latitude": 113.032201,
+                        "longitude": 23.140266
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "博爱中路": {
+                    "id": "36",
+                    "name": "博爱中路",
+                    "name2": "Bo'ai Zhonglu",
+                    "location": {
+                        "latitude": 113.025625,
+                        "longitude": 23.116889
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "科盛路": {
+                    "id": "35",
+                    "name": "科盛路",
+                    "name2": "Kesheng Lu",
+                    "location": {
+                        "latitude": 113.023949,
+                        "longitude": 23.107398
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "兴业东路": {
+                    "id": "34",
+                    "name": "兴业东路",
+                    "name2": "Xingye Donglu",
+                    "location": {
+                        "latitude": 113.027873,
+                        "longitude": 23.089819
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "佛山西站": {
+                    "id": "33",
+                    "name": "佛山西站",
+                    "name2": "Foshan West Railway Station",
+                    "location": {
+                        "latitude": 113.03381,
+                        "longitude": 23.079312
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": [
+                        {
+                            "first": "佛山西",
+                            "second": "广东城际"
+                        }
+                    ]
+                },
+                "罗村": {
+                    "id": "32",
+                    "name": "罗村",
+                    "name2": "Luocun",
+                    "location": {
+                        "latitude": 113.051999,
+                        "longitude": 23.066987
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "孝德东": {
+                    "id": "31",
+                    "name": "孝德东",
+                    "name2": "Xiaode Dong",
+                    "location": {
+                        "latitude": 113.069282,
+                        "longitude": 23.067205
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "联和": {
+                    "id": "30",
+                    "name": "联和",
+                    "name2": "Lianhe",
+                    "location": {
+                        "latitude": 113.084932,
+                        "longitude": 23.060343
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "佛山高铁站": {
+                    "id": "29",
+                    "name": "佛山高铁站",
+                    "name2": "Foshan HSR Station",
+                    "location": {
+                        "latitude": 113.097627,
+                        "longitude": 23.049481
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "敦厚": {
+                    "id": "28",
+                    "name": "敦厚",
+                    "name2": "Dunhou",
+                    "location": {
+                        "latitude": 113.10415,
+                        "longitude": 23.048614
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                }
+                "中山公园": {
+                    "id": "27",
+                    "name": "中山公园",
+                    "name2": "Zhongshan Park",
+                    "location": {
+                        "latitude": 113.116167,
+                        "longitude": 23.047821
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "叠滘": {
+                    "id": "26",
+                    "name": "叠滘",
+                    "name2": "Diejiao",
+                    "location": {
+                        "latitude": 113.127369,
+                        "longitude": 23.048272
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "西约": {
+                    "id": "25",
+                    "name": "西约",
+                    "name2": "Xiyue",
+                    "location": {
+                        "latitude": 113.140266,
+                        "longitude": 23.04047
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "桂城": {
+                    "id": "24",
+                    "name": "桂城",
+                    "name2": "Guicheng",
+                    "location": {
+                        "latitude": 113.141363,
+                        "longitude": 23.032469
+                    },
+                    "enable": true,
+                    "interchanges": ["GF"],
+                    "exitInterchanges": []
+                },
+                "镇安": {
+                    "id": "23",
+                    "name": "镇安",
+                    "name2": "Zhen'an",
+                    "location": {
+                        "latitude": 113.144388,
+                        "longitude": 23.016498
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "季华六路": {
+                    "id": "22",
+                    "name": "季华六路",
+                    "name2": "Jihua Liulu",
+                    "location": {
+                        "latitude": 113.136767,
+                        "longitude": 23.012073
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "亚艺公园": {
+                    "id": "21",
+                    "name": "亚艺公园",
+                    "name2": "Yayi Park",
+                    "location": {
+                        "latitude": 113.129357,
+                        "longitude": 23.001877
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "湾华": {
+                    "id": "20",
+                    "name": "湾华",
+                    "name2": "Wanhua",
+                    "location": {
+                        "latitude": 113.131651,
+                        "longitude": 22.99187
+                    },
+                    "enable": true,
+                    "interchanges": ["F2"],
+                    "exitInterchanges": []
+                },
+                "东平": {
+                    "id": "19",
+                    "name": "东平",
+                    "name2": "Dongping",
+                    "location": {
+                        "latitude": 113.129356,
+                        "longitude": 22.964656
+                    },
+                    "enable": true,
+                    "interchanges": ["GF"],
+                    "exitInterchanges": [
+                        {
+                            "first": "顺德北",
+                            "second": "广东城际"
+                        }
+                    ]
+                },
+                "大墩": {
+                    "id": "18",
+                    "name": "大墩",
+                    "name2": "Dadun",
+                    "location": {
+                        "latitude": 113.129428,
+                        "longitude": 22.95376
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "岳步": {
+                    "id": "17",
+                    "name": "岳步",
+                    "name2": "Yuebu",
+                    "location": {
+                        "latitude": 113.144682,
+                        "longitude": 22.943009
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "潭洲会展": {
+                    "id": "16",
+                    "name": "潭洲会展",
+                    "name2": "Tanzhou Convention & Exhibition Center",
+                    "location": {
+                        "latitude": 113.164387,
+                        "longitude": 22.948608
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "北滘西站": {
+                    "id": "15",
+                    "name": "北滘西站",
+                    "name2": "Beijiao West Railway Station",
+                    "location": {
+                        "latitude": 113.178142,
+                        "longitude": 22.952097
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": [
+                        {
+                            "first": "北滘西",
+                            "second": "广东城际"
+                        }
+                    ]
+                },
+                "高村": {
+                    "id": "14",
+                    "name": "高村",
+                    "name2": "Gaocun",
+                    "location": {
+                        "latitude": 113.194272,
+                        "longitude": 22.944812
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "北滘公园": {
+                    "id": "13",
+                    "name": "北滘公园",
+                    "name2": "Beijiao Park",
+                    "location": {
+                        "latitude": 113.212092,
+                        "longitude": 22.93005
+                    },
+                    "enable": true,
+                    "interchanges": ["7"],
+                    "exitInterchanges": []
+                },
+                "广教": {
+                    "id": "12",
+                    "name": "广教",
+                    "name2": "Guangjiao",
+                    "location": {
+                        "latitude": 113.212542,
+                        "longitude": 22.909301
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "伦教": {
+                    "id": "11",
+                    "name": "伦教",
+                    "name2": "Lunjiao",
+                    "location": {
+                        "latitude": 113.214186,
+                        "longitude": 22.88034
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "荔村": {
+                    "id": "10",
+                    "name": "荔村",
+                    "name2": "Licun",
+                    "location": {
+                        "latitude": 113.231423,
+                        "longitude": 22.872133
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "顺德人民医院": {
+                    "id": "09",
+                    "name": "顺德人民医院",
+                    "name2": "The First People's Hospital of Shunde",
+                    "location": {
+                        "latitude": 113.242391,
+                        "longitude": 22.867663
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "环市北": {
+                    "id": "08",
+                    "name": "环市北",
+                    "name2": "Huanshi Bei",
+                    "location": {
+                        "latitude": 113.243957,
+                        "longitude": 22.852506
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "大良钟楼": {
+                    "id": "07",
+                    "name": "大良钟楼",
+                    "name2": "Daliang Zhonglou",
+                    "location": {
+                        "latitude": 113.253056,
+                        "longitude": 22.839431
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "东乐路": {
+                    "id": "06",
+                    "name": "东乐路",
+                    "name2": "Dongle Lu",
+                    "location": {
+                        "latitude": 113.264525,
+                        "longitude": 22.834855
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "驹荣北路": {
+                    "id": "05",
+                    "name": "驹荣北路",
+                    "name2": "Jurong Beilu",
+                    "location": {
+                        "latitude": 113.277465,
+                        "longitude": 22.834905
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "顺德一中": {
+                    "id": "04",
+                    "name": "顺德一中",
+                    "name2": "Shunde No.1 High School",
+                    "location": {
+                        "latitude": 113.293614,
+                        "longitude": 22.832941
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "顺德欢乐海岸": {
+                    "id": "03",
+                    "name": "顺德欢乐海岸",
+                    "name2": "Shunde OCT Harbour PLUS",
+                    "location": {
+                        "latitude": 113.307041,
+                        "longitude": 22.818775
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "顺德学院站": {
+                    "id": "02",
+                    "name": "顺德学院站",
+                    "name2": "Shundexue College Railway Station",
+                    "location": {
+                        "latitude": 113.318273,
+                        "longitude": 22.818914
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "顺德港": {
+                    "id": "01",
+                    "name": "顺德港",
+                    "name2": "Shunde Harbour",
+                    "location": {
+                        "latitude": 113.340692,
+                        "longitude": 22.808777
+                    },
+                    "enable": false,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                }
+            },
+            "colorValue": "0xFF0065B3"
+        },
+        "TNH1": {
+            "id": "TNH1",
+            "name": "南海有轨电车1号线",
+            "name2": "",
+            "routeList": [
+                {
+                    "stationList": [
+                        "15",
+                        "14",
+                        "13",
+                        "12",
+                        "11",
+                        "10",
+                        "09",
+                        "08",
+                        "07",
+                        "06",
+                        "05",
+                        "04",
+                        "03",
+                        "02",
+                        "01"
+                    ],
+                    "expressOf": -1,
+                    "shuttleOf": -1,
+                    "branchOf": -1,
+                    "isCircular": false
+                },
+                {
+                    "stationList": [
+                        "01",
+                        "02",
+                        "03",
+                        "04",
+                        "05",
+                        "06",
+                        "07",
+                        "08",
+                        "09",
+                        "10",
+                        "11",
+                        "12",
+                        "13",
+                        "14",
+                        "15"
+                    ],
+                    "expressOf": -1,
+                    "shuttleOf": -1,
+                    "branchOf": -1,
+                    "isCircular": false
+                }
+            ],
+            "stationMap": {
+                "林岳东": {
+                    "id": "15",
+                    "name": "林岳东",
+                    "name2": "Linyuedong",
+                    "location": {
+                        "latitude": 113.247353,
+                        "longitude": 22.994175
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": [
+                        {
+                            "first": "林岳东",
+                            "second": "F2"
+                        }
+                    ]
+                },
+                "林岳西": {
+                    "id": "14",
+                    "name": "林岳西",
+                    "name2": "Linyue Xi",
+                    "location": {
+                        "latitude": 113.237161,
+                        "longitude": 22.993744
+                    },
+                    "enable": true,
+                    "interchanges": ["F2"],
+                    "exitInterchanges": []
+                },
+                "林岳北": {
+                    "id": "13",
+                    "name": "林岳北",
+                    "name2": "Linyuebei",
+                    "location": {
+                        "latitude": 113.233647,
+                        "longitude": 23.003406
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "三山新城南": {
+                    "id": "12",
+                    "name": "三山新城南",
+                    "name2": "Sanshanxinchengnan",
+                    "location": {
+                        "latitude": 113.234269,
+                        "longitude": 23.007948
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "文翰湖公园(季华实验室)": {
+                    "id": "11",
+                    "name": "文翰湖公园(季华实验室)",
+                    "name2": "Wenhanhu Park(Jihua Laboratory)",
+                    "location": {
+                        "latitude": 113.235855,
+                        "longitude": 23.018987
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "三山新城北": {
+                    "id": "10",
+                    "name": "三山新城北",
+                    "name2": "Sanshanxinchengbei",
+                    "location": {
+                        "latitude": 113.234741,
+                        "longitude": 23.023036
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "中区": {
+                    "id": "09",
+                    "name": "中区",
+                    "name2": "Zhongqu",
+                    "location": {
+                        "latitude": 113.225932,
+                        "longitude": 23.025581
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "玉器街": {
+                    "id": "08",
+                    "name": "玉器街",
+                    "name2": "Yuqijie",
+                    "location": {
+                        "latitude": 113.209752,
+                        "longitude": 23.021665
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "平南": {
+                    "id": "07",
+                    "name": "平南",
+                    "name2": "Pingnan",
+                    "location": {
+                        "latitude": 113.201767,
+                        "longitude": 23.020554
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "平西": {
+                    "id": "06",
+                    "name": "平西",
+                    "name2": "Pingxi",
+                    "location": {
+                        "latitude": 113.19582,
+                        "longitude": 23.028034
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "康怡公园": {
+                    "id": "05",
+                    "name": "康怡公园",
+                    "name2": "Kangyi Park",
+                    "location": {
+                        "latitude": 113.189969,
+                        "longitude": 23.033159
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "夏东": {
+                    "id": "04",
+                    "name": "夏东",
+                    "name2": "Xiadong",
+                    "location": {
+                        "latitude": 113.18152,
+                        "longitude": 23.034666
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "夏西": {
+                    "id": "03",
+                    "name": "夏西",
+                    "name2": "Xiaxi",
+                    "location": {
+                        "latitude": 113.172051,
+                        "longitude": 23.035832
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "华翠路": {
+                    "id": "02",
+                    "name": "华翠路",
+                    "name2": "Huacuilu",
+                    "location": {
+                        "latitude": 113.164197,
+                        "longitude": 23.03696
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": []
+                },
+                "𧒽岗": {
+                    "id": "01",
+                    "name": "𧒽岗",
+                    "name2": "Leigang",
+                    "location": {
+                        "latitude": 113.156668,
+                        "longitude": 23.041874
+                    },
+                    "enable": true,
+                    "interchanges": [],
+                    "exitInterchanges": [
+                        {
+                            "first": "𧒽岗",
+                            "second": "GF"
+                        }
+                    ]
+                }
+            },
+            "colorValue": "0xFF01A2E2"
+        }
+    }
+}
